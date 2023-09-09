@@ -268,6 +268,18 @@ button {
     float: right;
 }
 
+#logo-link {
+    display: flex;
+    align-items: center; /* Vertically align the image within the container */
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  #logo-link img {
+    max-width: 100%; /* Ensure the image scales within the container */
+    max-height: 100%; /* Ensure the image scales within the container */
+    margin: 0 auto; /* Horizontally center the image within the container */
+    display: block; /* Remove any potential inline spacing */
+  }
 .navbar {
     padding: 15px 50px;
 }
